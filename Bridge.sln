@@ -5,7 +5,9 @@ VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{BDAB2E5B-1A1D-4890-8F7B-76017A490D25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Tests", "Bridge.Tests\Bridge.Tests.csproj", "{F53CF32D-3368-41D9-A72B-223DE53E76F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeCarTest", "Bridge.Tests\BridgeCarTest.csproj", "{F53CF32D-3368-41D9-A72B-223DE53E76F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeMCTest", "BridgeMCTest\BridgeMCTest.csproj", "{5B2E1E4F-D010-4887-963F-8D07FC700E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F53CF32D-3368-41D9-A72B-223DE53E76F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53CF32D-3368-41D9-A72B-223DE53E76F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53CF32D-3368-41D9-A72B-223DE53E76F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
