@@ -4,47 +4,22 @@
     /// represents a car that can cross a bridge
     /// </summary>
     /// 
-    public class Car
+    public class Car : Vehicle
     {
         /// <summary>
-        /// The car's licenseplate.
+        /// Initializes a new instance of the Car class.
         /// </summary>
-        public string Licenseplate { get; set; }
-
+        public Car(string licensePlate, DateTime date) : base(licensePlate, date) { }
 
         /// <summary>
-        /// The date of the crossing
+        /// Returns the price for crossing the bridge
         /// </summary>
-        public DateTime Date { get; set; }
-
-
-        /// <summary>
-        /// Initializes a new instance of the car class
-        /// </summary>
-
-        public Car (string licenseplate, DateTime date)
-        {
-            Licenseplate = licenseplate;
-            Date = date;
-
-        }
-
-        /// <summary>
-        /// Returns the price for crossing the bridge.
-        /// </summary>
-        public double Price()
-        {
-            return 230;
-        }
+        public override double Price() => 230;
 
         /// <summary>
         /// Returns the vehicle type
         /// </summary>
-        /// <returns></returns>
-        public string VehicleType()
-        {
-            return "Car";
-        }
-
+        public override string VehicleType() => "Car";
     }
 }
+        

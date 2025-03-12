@@ -6,43 +6,23 @@ using System.Threading.Tasks;
 
 namespace Bridge
 {
-    public class MC
+    public class MC : Vehicle
     {
-        /// <summary>
-        /// The mc's license plate
-        /// </summary>
-        public string LicensePlate {get; set;}
-
-        /// <summary>
-        /// The date of the crossing
-        /// </summary>
-        public DateTime Date { get; set;}
 
         /// <summary>
         /// Initializes a new instance of the MC class.
         /// </summary>
-        public MC(string licensePlate, DateTime date)
-        {
-            LicensePlate = licensePlate;
-            Date = date;
-
-        }
+        public MC(string licensePlate, DateTime date) : base(licensePlate, date) { }
 
         /// <summary>
-        /// Returns the price for crossing the bridge.
+        /// Returns the price for crossing the bridge
         /// </summary>
-        public double Price ()
-        {
-            return 120;
-        }
-
+        public override double Price() => 120;
+        
         /// <summary>
-        /// Returns the vehicle type.
+        /// Returns the vehicle type
         /// </summary>
-        public string VehicleType()
-        {
-            return "MC";
-        }
+        public override string VehicleType() => "MC";
 
     }
 }
