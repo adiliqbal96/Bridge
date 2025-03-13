@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeCarTest", "Bridge.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeMCTest", "BridgeMCTest\BridgeMCTest.csproj", "{5B2E1E4F-D010-4887-963F-8D07FC700E70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicensePlateMaxLenghtTest", "LicensePlateMaxLenghtTest\LicensePlateMaxLenghtTest.csproj", "{63D2D5EB-A885-4387-BA4D-8A7E2B7AFE68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B2E1E4F-D010-4887-963F-8D07FC700E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D2D5EB-A885-4387-BA4D-8A7E2B7AFE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D2D5EB-A885-4387-BA4D-8A7E2B7AFE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D2D5EB-A885-4387-BA4D-8A7E2B7AFE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D2D5EB-A885-4387-BA4D-8A7E2B7AFE68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
