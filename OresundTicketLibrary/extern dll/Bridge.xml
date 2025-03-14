@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bridge</name>
+    </assembly>
+    <members>
+        <member name="T:Bridge.Car">
+            <summary>
+            represents a car that can cross a bridge
+            </summary>
+            
+        </member>
+        <member name="M:Bridge.Vehicle.BasePrice">
+            <summary>
+            Abstract method to return the base price before discounts.
+            </summary>
+        </member>
+        <member name="M:Bridge.Vehicle.Price">
+            <summary>
+            Abstract method to return the final price with discounts applied.
+            Each vehicle must implement this method.
+            </summary>
+        </member>
+        <member name="M:Bridge.Vehicle.VehicleType">
+            <summary>
+            Abstract method to return the vehicle type.
+            Each vehicle must implement this method.
+            </summary>
+        </member>
+    </members>
+</doc>
