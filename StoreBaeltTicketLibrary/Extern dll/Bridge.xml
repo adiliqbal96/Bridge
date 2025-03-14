@@ -10,68 +10,15 @@
             </summary>
             
         </member>
-        <member name="M:Bridge.Car.#ctor(System.String,System.DateTime,System.Boolean)">
-            <summary>
-            Initializes a new instance of the Car class.
-            </summary>
-        </member>
-        <member name="M:Bridge.Car.BasePrice">
-            <summary>
-            Returns the price for crossing the bridge
-            </summary>
-        </member>
-        <member name="M:Bridge.Car.VehicleType">
-            <summary>
-            Returns the vehicle type
-            </summary>
-        </member>
-        <member name="M:Bridge.MC.#ctor(System.String,System.DateTime,System.Boolean)">
-            <summary>
-            Initializes a new instance of the MC class.
-            </summary>
-        </member>
-        <member name="M:Bridge.MC.BasePrice">
-            <summary>
-            Returns the price for crossing the bridge
-            </summary>
-        </member>
-        <member name="M:Bridge.MC.VehicleType">
-            <summary>
-            Returns the vehicle type
-            </summary>
-        </member>
-        <member name="P:Bridge.Vehicle.LicensePlate">
-            <summary>
-            The vehicles licenseplate
-            </summary>
-        </member>
-        <member name="P:Bridge.Vehicle.Date">
-            <summary>
-            The date of the crossing.
-            </summary>
-        </member>
-        <member name="P:Bridge.Vehicle.HasBroBizz">
-            <summary>
-            Indicates whether a brobizz discount is applied
-            </summary>
-        </member>
-        <member name="M:Bridge.Vehicle.#ctor(System.String,System.DateTime,System.Boolean)">
-            <summary>
-             Initializes a new instance of the Vehicle class.
-             Throws an exception if the licenseplate is longer than 7 characters.
-            </summary>
-            <param name="licensePlate"> The vehicles licenseplate</param>
-            <param name="date"> the date of crossing</param>
-            <exception cref="T:System.ArgumentException">Thrown if the license plate is longer than 7 characters</exception>
-        </member>
         <member name="M:Bridge.Vehicle.BasePrice">
             <summary>
-            Returns the base price before any discounts.
+            Abstract method to return the base price before discounts.
             </summary>
         </member>
         <member name="M:Bridge.Vehicle.Price">
             <summary>
-            Returns the final price with Brobizz discount if applicable.
+            Abstract method to return the final price with discounts applied.
+            Each vehicle must implement this method.
             </summary>
         </member>
         <member name="M:Bridge.Vehicle.VehicleType">

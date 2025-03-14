@@ -6,20 +6,21 @@
     /// 
     public class Car : Vehicle
     {
-        /// <summary>
-        /// Initializes a new instance of the Car class.
-        /// </summary>
-        public Car(string licensePlate, DateTime date, bool hasBroBizz = false) : base(licensePlate, date, hasBroBizz) { }
+        public Car(string licensePlate, DateTime date, bool hasBroBizz = false)
+            : base(licensePlate, date, hasBroBizz) { }
 
-        /// <summary>
-        /// Returns the price for crossing the bridge
-        /// </summary>
-        public override double BasePrice() => 230;
+        public override double BasePrice() => 230; // Same as before
 
-        /// <summary>
-        /// Returns the vehicle type
-        /// </summary>
+        public override double Price() // Keeps the same logic
+        {
+            double price = BasePrice();
+            if (HasBroBizz)
+            {
+                price *= 0.90; // Apply 10% discount
+            }
+            return price;
+        }
+
         public override string VehicleType() => "Car";
     }
-}
-        
+   }

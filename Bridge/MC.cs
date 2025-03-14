@@ -8,21 +8,21 @@ namespace Bridge
 {
     public class MC : Vehicle
     {
+        public MC(string licensePlate, DateTime date, bool hasBroBizz = false)
+            : base(licensePlate, date, hasBroBizz) { }
 
-        /// <summary>
-        /// Initializes a new instance of the MC class.
-        /// </summary>
-        public MC(string licensePlate, DateTime date, bool hasBroBizz = false) : base(licensePlate, date, hasBroBizz) { }
+        public override double BasePrice() => 120; // Same as before
 
-        /// <summary>
-        /// Returns the price for crossing the bridge
-        /// </summary>
-        public override double BasePrice() => 120;
-        
-        /// <summary>
-        /// Returns the vehicle type
-        /// </summary>
+        public override double Price() // Keeps the same logic
+        {
+            double price = BasePrice();
+            if (HasBroBizz)
+            {
+                price *= 0.90; // Apply 10% discount
+            }
+            return price;
+        }
+
         public override string VehicleType() => "MC";
-
     }
-}
+   }

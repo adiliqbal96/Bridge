@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{BDAB2E5B-1A1D-4890-8F7B-76017A490D25}"
 EndProject
@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicensePlateMaxLenghtTest",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroBizzDiscountTest", "BroBizzDiscountTest\BroBizzDiscountTest.csproj", "{FC2365DE-3B05-4848-A854-9C0474227D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj", "{0860ECCC-D58D-42AC-99A6-5AC55F0D1846}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj", "{720DD227-D784-43D1-82E0-8249176B54B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTests", "StoreBaeltTicketLibraryTests\StoreBaeltTests.csproj", "{367CD290-03FD-4678-AE46-60D3C93D6C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +43,14 @@ Global
 		{FC2365DE-3B05-4848-A854-9C0474227D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2365DE-3B05-4848-A854-9C0474227D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2365DE-3B05-4848-A854-9C0474227D9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0860ECCC-D58D-42AC-99A6-5AC55F0D1846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0860ECCC-D58D-42AC-99A6-5AC55F0D1846}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0860ECCC-D58D-42AC-99A6-5AC55F0D1846}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0860ECCC-D58D-42AC-99A6-5AC55F0D1846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720DD227-D784-43D1-82E0-8249176B54B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720DD227-D784-43D1-82E0-8249176B54B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720DD227-D784-43D1-82E0-8249176B54B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720DD227-D784-43D1-82E0-8249176B54B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367CD290-03FD-4678-AE46-60D3C93D6C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367CD290-03FD-4678-AE46-60D3C93D6C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367CD290-03FD-4678-AE46-60D3C93D6C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367CD290-03FD-4678-AE46-60D3C93D6C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
